@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/rounded_corner"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/titleOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:text="Item title" />
+
+    <TextView
+        android:id="@+id/placeOutput"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleOutput"
+        android:text="item place"
+        android:textColor="#393939"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/amountOutput"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placeOutput"
+        android:text="item amount"
+        android:textColor="#393939"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/descriptionOutput"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amountOutput"
+        android:text="item description"
+        android:textColor="#393939"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/timeOutput"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionOutput"
+        android:gravity="end"
+        android:text="Time created"
+        android:textColor="#393939"
+        android:textSize="12dp"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
